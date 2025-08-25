@@ -1,0 +1,90 @@
+.listWrap {
+  display: block;
+  width: 100%;
+  height: 600px;
+  background: "../";
+  background-image: url(../../assets/ToDoList/bg.jpg);
+  background-size: cover;  
+  background-position: center;
+  background-repeat: no-repeat;
+  backdrop-filter: blur(8px);
+  box-shadow: 0 -8px 15px rgba(0, 0, 0, 0.7), 0 8px 15px rgba(0, 0, 0, 0.7);
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.listWrap > h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: rgb(255, 255, 255);
+}
+
+.listWrap > input {
+  width: 100%;
+  padding: 20px;
+  border: none;
+  border-radius: 12px;
+  outline: none;
+  font-size: 2rem;
+  background: #222;
+  color: #fff;
+  margin-bottom: 2rem;
+}
+.listWrap > input:hover{
+    background: #2c2c2c;
+    cursor: pointer;
+}
+
+.listWrap > button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: bolder;
+  font-size: 2rem;
+  background: #ffffff;
+  color: #000;
+  transition: all 0.3s ease;
+}
+
+.listWrap > button:hover {
+  background: #00d4d4;
+  box-shadow: 0 0 10px #3fefff;
+}
+
+.listWrap > ul {
+  list-style: none;
+  margin-top: 40px;
+  font-size: 2rem;
+}
+
+.listWrap > ul > li {
+  background: rgba(0, 0, 0, 0.6);
+  margin: 6px 0;
+  padding: 5px 10px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  font-size: 1.2rem;
+  transition: all ease 0.3s ;
+}
+
+.listWrap > ul > li:hover {
+  background-color: rgba(98, 98, 98);
+}
+
+.listWrap > ul > li button {
+  font-size: 1rem;
+  padding: 6px 12px;
+  border-radius: 8px;
+  transition: all ease 0.4s;
+}
+.listWrap > ul > li button:hover {
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+}

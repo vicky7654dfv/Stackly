@@ -1,0 +1,47 @@
+.bannerWrap {
+  margin-top: 80px;
+  width: 100%;
+}
+
+.bgVidWrap video {
+  display: block;
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+}
+.timerWrap{
+  top: 45%;
+  left: 40%;
+  position: absolute;
+  font-size: 2rem;
+  color: #ffcb61;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;  
+}
+.timerWrap h2{
+  cursor: pointer;
+  box-shadow: 0 0 10px #ffcb61;
+  text-align: center;
+}
+.timerWrap button{
+  border-color: solid 2px #ffcb61;
+  background: transparent;
+  padding: 2px 4px;
+  border-radius: 5px;
+  font-size: 2rem;
+  transition: all ease-in-out 0.4s;
+  color: #ffcb61;
+  font-family: Cambria, Cochin;
+}
+.timerWrap button:hover{
+  cursor: pointer;
+  color: #ffcb61;
+  box-shadow: 0 0 30px #239ba7;
+}
+.btnWrap{
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}

@@ -1,0 +1,52 @@
+.timeWrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background-color: #FFCB61;
+  width: 100%;
+  height: 160px;
+}
+.buttonWrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  border-radius: 1rem;
+}
+.buttonWrap button{
+    border-radius: 1rem;
+    padding: 8px;
+    background-color: white;
+    transition: all ease-in-out 0.4s;
+}
+.buttonWrap button:hover{
+    cursor: pointer;
+background-color:#239ba7;
+}
+.count {
+  font-size: 2.5rem;
+  transition: all 0.3s ease;
+}
+
+.fire {
+  animation: fireGlow 0.5s ease;
+}
+
+@keyframes fireGlow {
+  0% {
+    text-shadow: 0 0 4px #239ba7, 0 0 8px #1b7e89, 0 0 12px #0f5158, 0 0 18px #239ba7;
+    color: #e0f7fa;
+  }
+  50% {
+    text-shadow: 0 0 6px #239ba7, 0 0 12px #1fb1bf, 0 0 20px #4cd4e0, 0 0 30px #239ba7;
+    color: #a7f3f7;
+  }
+  100% {
+    text-shadow: 0 0 4px #239ba7, 0 0 8px #1b7e89, 0 0 12px #0f5158, 0 0 18px #239ba7;
+    color: #e0f7fa;
+  }
+}
+
+
