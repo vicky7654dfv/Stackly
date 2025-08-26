@@ -1,0 +1,88 @@
+.headDiv {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #33a1e0;
+  width: 100%;
+  height: 1000px;
+}
+.innerHeadDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.headDiv h1 {
+  font-size: 6rem;
+}
+.innerHeadDiv a {
+  color: gold;
+  text-decoration: none;
+  transition: all ease 0.4s;
+}
+.innerHeadDiv a:hover {
+  color: wheat;
+}
+.innerHeadDiv h4 {
+  color: rgb(84, 207, 166);
+}
+.imgDiv {
+  display: flex;
+  padding-top: 3rem;
+  gap: 1rem;
+  justify-content: center;
+}
+.imgDiv p {
+  max-width: 750px;
+  line-height: 2.5rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+.imgDiv > img {
+  width: 100%;
+  height: 400px;
+  border-radius: 2rem;
+  object-fit: fill;
+  box-shadow: 0 0 30px blue;
+}
+.projectDiv {
+  background-image: url(../../assets/AboutUs/bg1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  backdrop-filter: blur(8px);
+  background-blend-mode: color-burn;
+  margin-top: 5rem;
+  display: flex;
+  justify-content: center;
+  gap: 30rem;
+  line-height: 3rem;
+  align-items: center;
+  background-color: #2c86ba;
+  width: 100%;
+  height: 350px;
+  box-shadow: 0 0 30px #33a1e0;
+  font-size: 1.5rem;
+}
+.paraDiv > h2 > a {
+    color: blue;
+    text-shadow: 0 0 10px blanchedalmond, 0 0 20px blanchedalmond,
+    0 0 40px blanchedalmond;
+    transition: all ease 0.4s;
+}
+.paraDiv > h2 > a:hover {
+    color:rgb(32, 53, 91);
+}
+.rightSideDiv li{
+    list-style: none;
+}
+.rightSideDiv a{
+color: blue;
+text-shadow: 0 0 10px blanchedalmond, 0 0 20px blanchedalmond,
+    0 0 40px blanchedalmond;
+    transition: all ease 0.4s;
+}
+.rightSideDiv a:hover {
+    color: rgb(32, 53, 91);
+}

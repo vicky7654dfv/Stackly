@@ -3,8 +3,7 @@ import Banner from '../../components/Banner/Banner'
 import Count from '../../components/Count/Count'
 import ImageSlides from '../../components/ImageSlides/ImageSlides'
 import ToDoList from '../../components/ToDoList/ToDoList'
-import LiveTime from '../../components/LiveTime/LiveTime'
-import Clock from '../Clock/Clock'
+import Users from '../../components/Users/Users'
 
 
 
@@ -12,7 +11,7 @@ export default function Home() {
   return (
     <div>
       <Banner />
-      <LiveTime />
+      <Users />
       <Count />
       <ImageSlides />
       <ToDoList />

@@ -1,0 +1,38 @@
+.userDetailsWrap{
+    display: flex;
+    flex-direction: column;
+    background-color: #1C6EA4;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+    line-height: 3.5rem;
+box-shadow: 0 0 30px 10px rgb(28, 110, 164, 0.8);
+}
+.userDetailsWrap p{
+    font-size: 2rem;
+}
+.userDetailsWrap button{
+    font-size: 1.5rem;
+    background: transparent;
+    box-shadow: 0 0 30px darkorange;
+    padding: 10px;
+    border-radius: 1rem;
+    cursor: pointer;
+    font-weight: bold;
+    color: aliceblue;
+    transition: all ease 0.4s;
+}
+.userDetailsWrap button:hover{
+    box-shadow: 0 0 30px rgb(0, 0, 0);
+    color: black;
+}
+.userDetailsWrap a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color:springgreen;
+    transition: all ease 0.4s;
+}
+.userDetailsWrap a:hover{
+    color: aliceblue;
+}
