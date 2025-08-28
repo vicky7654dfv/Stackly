@@ -1,0 +1,72 @@
+.signUpWrap{
+    margin-top: 80px;
+    width: 100%;
+    height: 650px;
+    background-image: url("../../assets/Login/bg.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.imgWrap img{
+    width: 100%;
+    height: 250px;
+}
+.signUpForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+.signUpForm h2{
+    margin-bottom: 20px;
+    font-size: 4rem;
+    font-weight: bold;
+    color:rgb(59, 59, 59);
+}
+.firstRow{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    padding: 0;
+    align-items: center;
+}
+.firstRow input{
+    width: 292px;
+}
+.commonClass{
+    width: 600px;
+    height: 60px;
+    margin-bottom: 10px;
+    padding: 1.5rem 1rem;
+    border-radius: 4px;
+    background-color: beige;
+    text-align: left;
+    font-size: 2rem;
+}
+.commonClass::placeholder{
+    font-size: 2rem;
+    color: gray;
+}
+.commonClass:hover{
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    border: 1px solid gray;
+}
+.submitClass{
+    width: 600px;
+    height: 60px;
+    margin-top: 20px;
+    border-radius: 4px;
+    background-color: rgb(59, 59, 59);
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    cursor: pointer;
+    align-items: center;
+}
+.submitClass:hover{
+    background-color: rgb(30, 30, 30);
+}

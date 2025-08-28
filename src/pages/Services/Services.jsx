@@ -1,7 +1,10 @@
 import React from 'react'
+import UserList from '../../components/UserList/UserList'
 
 export default function Services() {
   return (
-    <div>Services</div>
+    <div>
+      <UserList />
+    </div>
   )
 }
