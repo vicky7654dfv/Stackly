@@ -1,0 +1,48 @@
+.gridWrap {
+  margin-top: 80px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  width: 100%;
+  max-width: 1540px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  background-image: url("../../assets/ServiceGrid/bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.gridItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background: rgba(244, 244, 244, 0.9);
+  border-radius: 12px;
+  padding: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  transition: all 0.3s ease
+}
+
+.gridItem:hover {
+  cursor: pointer;
+  transform: translateY(-8px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.35);
+}
+
+.gridItem img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.imgName {
+  margin-top: 12px;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+  color: #222;
+}
